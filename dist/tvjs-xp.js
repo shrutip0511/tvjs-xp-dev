@@ -23,6 +23,20 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 26:
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(314);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, "\r\n/*.tvjs-x-window {\r\n    position: absolute;\r\n    background: #1b202def;\r\n    border-radius: 3px;\r\n    pointer-events: all;\r\n    padding-left: 7px;\r\n    z-index: 100;\r\n    color: #dedddd;\r\n}\r\n.tvjs-x-window-head {\r\n    font-size: 2em;\r\n    user-select: none;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-content: center;\r\n    align-items: center;\r\n    height: 36px;\r\n    padding: 10px;\r\n    cursor: grab;\r\n}\r\n\r\n.tvjs-x-window-body {\r\n    padding: 10px;\r\n    font-size: 1.1em;\r\n}\r\n.tvjs-x-window-title {\r\n    width: 300px;\r\n    user-select: none;\r\n}\r\n.tvjs-x-window-close {\r\n    width: 26px;\r\n    cursor: pointer;\r\n    margin: -1em;\r\n    padding: 1em;\r\n    font-size: 0.75em;\r\n}*/\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ 75:
 /***/ ((module, exports, __webpack_require__) => {
 
@@ -37,17 +51,21 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 120:
-/***/ ((module, exports, __webpack_require__) => {
+/***/ 99:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(314);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.id, "\n.tvjs-x-window {\r\n    position: absolute;\r\n    background: #1b202def;\r\n    border-radius: 3px;\r\n    pointer-events: all;\r\n    padding-left: 7px;\r\n    z-index: 100;\r\n    color: #dedddd;\n}\n.tvjs-x-window-head {\r\n    font-size: 2em;\r\n    user-select: none;\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-content: center;\r\n    align-items: center;\r\n    height: 36px;\r\n    padding: 10px;\r\n    cursor: grab;\n}\n.tvjs-x-window-body {\r\n    padding: 10px;\r\n    font-size: 1.1em;\n}\n.tvjs-x-window-title {\r\n    width: 300px;\r\n    user-select: none;\n}\n.tvjs-x-window-close {\r\n    width: 26px;\r\n    cursor: pointer;\r\n    margin: -1em;\r\n    padding: 1em;\r\n    font-size: 0.75em;\n}\r\n", ""]);
-// Exports
-module.exports = exports;
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
+// load the styles
+var content = __webpack_require__(26);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(534)/* ["default"] */ .A)
+var update = add("3705c98e", content, false, {});
+// Hot Module Replacement
+if(false) {}
 
 /***/ }),
 
@@ -149,24 +167,6 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
-
-/***/ }),
-
-/***/ 353:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(120);
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.id, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = (__webpack_require__(534)/* ["default"] */ .A)
-var update = add("6d7a7200", content, false, {});
-// Hot Module Replacement
-if(false) {}
 
 /***/ }),
 
@@ -1650,8 +1650,8 @@ AddWinvue_type_template_id_2ed555ae_scoped_true_render._withStripped = true;
 
 ;// ./src/extensions/legend-buttons/AddWin.vue?vue&type=template&id=2ed555ae&scoped=true
 
-;// ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Window.vue?vue&type=template&id=75d5e1c0
-var Windowvue_type_template_id_75d5e1c0_render = function render() {
+;// ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Window.vue?vue&type=template&id=06ef024a
+var Windowvue_type_template_id_06ef024a_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
@@ -1676,10 +1676,10 @@ var Windowvue_type_template_id_75d5e1c0_render = function render() {
     staticClass: "tvjs-x-window-body"
   }, [_vm._t("default")], 2)]);
 };
-var Windowvue_type_template_id_75d5e1c0_staticRenderFns = [];
-Windowvue_type_template_id_75d5e1c0_render._withStripped = true;
+var Windowvue_type_template_id_06ef024a_staticRenderFns = [];
+Windowvue_type_template_id_06ef024a_render._withStripped = true;
 
-;// ./src/components/Window.vue?vue&type=template&id=75d5e1c0
+;// ./src/components/Window.vue?vue&type=template&id=06ef024a
 
 ;// ./src/components/dragg.js
 /* harmony default export */ const dragg = ({
@@ -1749,9 +1749,9 @@ Windowvue_type_template_id_75d5e1c0_render._withStripped = true;
 });
 ;// ./src/components/Window.vue?vue&type=script&lang=js
  /* harmony default export */ const components_Windowvue_type_script_lang_js = (Windowvue_type_script_lang_js); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Window.vue?vue&type=style&index=0&id=75d5e1c0&prod&lang=css
-var Windowvue_type_style_index_0_id_75d5e1c0_prod_lang_css = __webpack_require__(353);
-;// ./src/components/Window.vue?vue&type=style&index=0&id=75d5e1c0&prod&lang=css
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Window.vue?vue&type=style&index=0&id=06ef024a&prod&lang=css
+var Windowvue_type_style_index_0_id_06ef024a_prod_lang_css = __webpack_require__(99);
+;// ./src/components/Window.vue?vue&type=style&index=0&id=06ef024a&prod&lang=css
 
 ;// ./src/components/Window.vue
 
@@ -1764,8 +1764,8 @@ var Windowvue_type_style_index_0_id_75d5e1c0_prod_lang_css = __webpack_require__
 
 var Window_component = normalizeComponent(
   components_Windowvue_type_script_lang_js,
-  Windowvue_type_template_id_75d5e1c0_render,
-  Windowvue_type_template_id_75d5e1c0_staticRenderFns,
+  Windowvue_type_template_id_06ef024a_render,
+  Windowvue_type_template_id_06ef024a_staticRenderFns,
   false,
   null,
   null,

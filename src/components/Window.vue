@@ -54,7 +54,7 @@ export default {
 }
 </script>
 <style>
-.tvjs-x-window {
+/*.tvjs-x-window {
     position: absolute;
     background: #1b202def;
     border-radius: 3px;
@@ -91,5 +91,5 @@ export default {
     margin: -1em;
     padding: 1em;
     font-size: 0.75em;
-}
+}*/
 </style>
