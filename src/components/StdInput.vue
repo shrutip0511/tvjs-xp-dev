@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style>
-.tvjs-std-input {
+/* .tvjs-std-input {
     margin: 5px;
     background-color: #161b27;
     border: 1px dotted #353940;
@@ -55,12 +55,12 @@ select.tvjs-std-input {
 }
 
 select.tvjs-std-input  {
-    //display: none; /*hide original SELECT element: */
+    //display: none; 
 }
 
 
 .tvjs-std-input::placeholder {
     color: #8e909a;
     opacity: 0.25;
-}
+} */
 </style>

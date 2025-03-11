@@ -462,20 +462,6 @@ function applyToTag (styleElement, obj) {
 
 /***/ }),
 
-/***/ 589:
-/***/ ((module, exports, __webpack_require__) => {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(314);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.id, "\n.tvjs-std-input {\r\n    margin: 5px;\r\n    background-color: #161b27;\r\n    border: 1px dotted #353940;\r\n    height: 22px;\r\n    border-radius: 3px;\r\n    padding: 2px 0px 3px 10px;\r\n    color: whitesmoke;\r\n    font-size: 1.2em;\r\n    outline: none;\r\n    width: 100px;\n}\nselect.tvjs-std-input {\r\n    height: 29px;\r\n    -moz-appearance: none;\n}\nselect.tvjs-std-input  {\r\n    //display: none; /*hide original SELECT element: */\n}\n.tvjs-std-input::placeholder {\r\n    color: #8e909a;\r\n    opacity: 0.25;\n}\r\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ 604:
 /***/ ((module, exports, __webpack_require__) => {
 
@@ -495,24 +481,6 @@ module.exports = exports;
 
 "use strict";
 module.exports = __WEBPACK_EXTERNAL_MODULE__724__;
-
-/***/ }),
-
-/***/ 732:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(589);
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.id, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = (__webpack_require__(534)/* ["default"] */ .A)
-var update = add("317dff38", content, false, {});
-// Hot Module Replacement
-if(false) {}
 
 /***/ }),
 
@@ -563,6 +531,38 @@ exports.push([module.id, "\n.tvjs-x-window.add-win[data-v-2ed555ae] {\r\n    pad
 // Exports
 module.exports = exports;
 
+
+/***/ }),
+
+/***/ 938:
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(314);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, "\r\n/* .tvjs-std-input {\r\n    margin: 5px;\r\n    background-color: #161b27;\r\n    border: 1px dotted #353940;\r\n    height: 22px;\r\n    border-radius: 3px;\r\n    padding: 2px 0px 3px 10px;\r\n    color: whitesmoke;\r\n    font-size: 1.2em;\r\n    outline: none;\r\n    width: 100px;\r\n}\r\n\r\nselect.tvjs-std-input {\r\n    height: 29px;\r\n    -moz-appearance: none;\r\n\r\n}\r\n\r\nselect.tvjs-std-input  {\r\n    //display: none; \r\n}\r\n\r\n\r\n.tvjs-std-input::placeholder {\r\n    color: #8e909a;\r\n    opacity: 0.25;\r\n} */\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ 963:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(938);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(534)/* ["default"] */ .A)
+var update = add("3e58caff", content, false, {});
+// Hot Module Replacement
+if(false) {}
 
 /***/ })
 
@@ -2096,8 +2096,8 @@ function _defineProperty(e, r, t) {
   }) : e[r] = t, e;
 }
 
-;// ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/StdInput.vue?vue&type=template&id=d997c286
-var StdInputvue_type_template_id_d997c286_render = function render() {
+;// ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/StdInput.vue?vue&type=template&id=89b7a354
+var StdInputvue_type_template_id_89b7a354_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("span", [_vm.type === "text" || !_vm.type ? _c("input", {
@@ -2132,10 +2132,10 @@ var StdInputvue_type_template_id_d997c286_render = function render() {
     return _c("option", [_vm._v(_vm._s(opt))]);
   }), 0) : _vm._e()]);
 };
-var StdInputvue_type_template_id_d997c286_staticRenderFns = [];
-StdInputvue_type_template_id_d997c286_render._withStripped = true;
+var StdInputvue_type_template_id_89b7a354_staticRenderFns = [];
+StdInputvue_type_template_id_89b7a354_render._withStripped = true;
 
-;// ./src/components/StdInput.vue?vue&type=template&id=d997c286
+;// ./src/components/StdInput.vue?vue&type=template&id=89b7a354
 
 ;// ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/StdInput.vue?vue&type=script&lang=js
 /* harmony default export */ const StdInputvue_type_script_lang_js = ({
@@ -2156,9 +2156,9 @@ StdInputvue_type_template_id_d997c286_render._withStripped = true;
 });
 ;// ./src/components/StdInput.vue?vue&type=script&lang=js
  /* harmony default export */ const components_StdInputvue_type_script_lang_js = (StdInputvue_type_script_lang_js); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/StdInput.vue?vue&type=style&index=0&id=d997c286&prod&lang=css
-var StdInputvue_type_style_index_0_id_d997c286_prod_lang_css = __webpack_require__(732);
-;// ./src/components/StdInput.vue?vue&type=style&index=0&id=d997c286&prod&lang=css
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/StdInput.vue?vue&type=style&index=0&id=89b7a354&prod&lang=css
+var StdInputvue_type_style_index_0_id_89b7a354_prod_lang_css = __webpack_require__(963);
+;// ./src/components/StdInput.vue?vue&type=style&index=0&id=89b7a354&prod&lang=css
 
 ;// ./src/components/StdInput.vue
 
@@ -2171,8 +2171,8 @@ var StdInputvue_type_style_index_0_id_d997c286_prod_lang_css = __webpack_require
 
 var StdInput_component = normalizeComponent(
   components_StdInputvue_type_script_lang_js,
-  StdInputvue_type_template_id_d997c286_render,
-  StdInputvue_type_template_id_d997c286_staticRenderFns,
+  StdInputvue_type_template_id_89b7a354_render,
+  StdInputvue_type_template_id_89b7a354_staticRenderFns,
   false,
   null,
   null,
