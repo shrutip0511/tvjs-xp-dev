@@ -15,10 +15,10 @@ import SettingsWin from '../build/settings-win/settings-win.js'
 
 
 const Pack = {
-    'chart-link': ChartLink,
+    // 'chart-link': ChartLink,
     'grid-resize': GridResize,
-    'legend-buttons': LegendButtons,
-    'settings-win': SettingsWin
+    // 'legend-buttons': LegendButtons,
+    // 'settings-win': SettingsWin
 }
 
 export default Pack
